@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Efecto zoom en una imagen con css</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <meta charset="UTF-8">
+  </head>
+<style type="text/css">
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.img {
+  transform:scale(1);
+  -ms-transform:scale(1);
+  -moz-transform:scale(1);
+  -webkit-transform:scale(1);
+  -o-transform:scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}        
+.img:hover {
+  transform:scale(1.2);
+  -ms-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+  -o-transform:scale(1.2);
+}
+</style>
+<body>
+<div class="container">
+  <div class="div-img hidden" >
+    <img class="img" src="imagenes/paisaje1.jpg">
+    <img class="img" src="imagenes/paisaje1.jpg" width="50px">
+  </div>
+</div>  
+</body>
+</html>

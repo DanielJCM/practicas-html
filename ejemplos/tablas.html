@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title> Quinta pagina </title>
+		<link rel="shortcut icon" type="image/x-icon" href="imagenes/html.jpg"> <!-- esto es para el icono de la pagina-->
+	</head>
+
+	<body>
+
+		<h1> Titulo </h1>
+
+		<p>
+		
+		HTML, sigla en ingles de HyperText Markup Language (lenguaje de marcas de hipertexto),<br/> hace referencia al lenguaje de marcado para la elaboracion de paginas web.
+
+		</p>
+
+		<img src="imagenes/icono.png" alt="Logotipo de html" title="Logo de html" width="300" height="300" /> <!--Para colocar imagenes se utiliza este atributo a demas se les coloca width y height para eltamaño de la imagen y coloque abajo dos espaciados con el atributo <br/> para que se vea mas ordenado es importante que la imagen sea proporcional por ejemplo si widht es 300 height tambien deberia ser 300 aunque tambien se puede evitar escribiendo solo el width o solo el height el atributo alt se usa en casi todos los casos y sirve por si hay algun problema con la ruta o el navegador no encuentra la imagen se muestre un texto diciendo que describe la imagen....el title es para que salga un texto al poner el mouse sobre la imagen-->
+
+		<img src="imagenes/iconos.png" alt="Logotipo de html" width="300" height="300" /> <!-- ejemplo de alt y lo que pasa si no se encuentra la imagen-->
+
+		<img src="https://tuspuzzles.es/puzzles/original/costa-brava-59492d4bb42ef.jpg" alt="Logotipo de html" title="Logo de html" width="400" height="300" /> <!-- tambien se pueden abrir imagenes usando una ruta absoluta y no solo con rutas relativas aunque lo mejor siempre es tener la imagen en nuestro servidor para evitar problemas con las rutas-->
+
+		<br/> <br/> 
+
+		<a target="_blank" href="https://www.google.co.ve/?gfe_rd=cr&dcr=0&ei=ICjCWta9F-WqX9Hwm6gF">Ir a google</a>
+
+		<a href="mailto:exodiadaniel@gmail.com" title="Enviar correo a Daniel Contreras">Enviar Mail</a>
+
+		<hr/>
+
+		<h2>Subtitulo</h2>
+
+		<p>
+		
+		<blockquote> HTML, <b>sigla en ingles</b> de HyperText Markup Language (lenguaje de marcas de hipertexto), <strong> hace referencia </strong> al lenguaje <i> de marcado para la </i> elaboracion de paginas web. </blockquote>
+		
+		<cite>Internet</cite>
+
+		</p>
+
+		<!--Lista desordenada las lista ademas de servir para escribir algo de forma ordenada tambien pueden convertirse en menus de navegacion u otros elementos dentro de tu sitio web con ayuda de otros lenguajes-->
+		<ul>
+			<li><a href="#">Item #1</a></li><!--el ahref="#"> es para convertirlo en un enlace para que sea un menu-->
+			<li>Item #2</li>
+				<ul>
+					<li>Item #1</li> <!-- dentro de cada lista se pueden agregar mas elemntos ul como submenues y se crean creando <ul> dentro de el elemento <li>-->
+					<li>Item #2</li>
+				</ul>
+			<li>Item #4</li>
+			<li>Item #5</li>
+		</ul>
+
+		<!--Listas ordenadas, se hacen utilizando <ol></ol>-->
+		<ol>
+			<li><a href="#">Item #1</a></li>
+			<li>Item #2</li>
+				<ul>
+				 	<li>Item #1</li> <!--Tambien se pueden hacer submenus-->
+				 	<li>Item #2</li>
+				 </ul>
+			<li>Item #3</li>
+			<li>Item #4</li>
+			<li>Item #5</li>
+		</ol>
+
+		<!--Casi siempre se utilizan son las listar desordenadas para la creacion de menus en sitios webs y las ordenadas solo para informaciones especificas-->
+		
+		<table> <!--Atributo para crear tablas-->
+			<tr> <!--los <tr> son filas y los <td> columnas-->
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+			<tr>
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+			<tr>
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+		</table>
+
+	</body>
+</html>

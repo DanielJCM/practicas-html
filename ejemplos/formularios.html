@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title> Quinta pagina </title>
+	</head>
+
+	<body>
+
+		<form>
+
+		<input type="text" value="Escribe tu nombre"> <!--el value se utiliza para definir un valor dentro de la caja de texto, aunque si es para una busqueda por ejemplo no nos es tan util ya que el usuario tiene que borrar el valor para reemplazarlo-->
+
+		<label for="nombre">Ingrese su nombre: </label> <!--el label se utiliza para asignar el texto a el input utilizando el id que le pusimos a el input-->
+		<input type="text" placeholder="Escribe tu nombre" size="20" maxlength="10" name="nombre" id="nombre"> <!-- Util para busquedas ya que al usuario introducir algo en la caja de texto se borrara el valor que se le ponga por ejemplo: "Buscar" el atributo size es el tamaño del cuadro de texto maxlength se usa para la cantidad maxima de caracteres que se pueden introducir en el cuadro de texto-->
+		<br/><br/>
+
+		<label for="Clave">Ingrese su clave: </label>
+		<input type="password" id="Clave"> <!--Se utiliza para las claves hace que al escribir salgan asteriscos y no se vea el texto-->
+		<br/><br/>
+
+		<input type="email" name="" id=""> <!--sirve para agregar un email y el navegador nos dice si es un mail valido o no--> 
+		<br/><br/>
+
+		<input type="checkbox" name="" id=""> Hombre
+		<input type="checkbox" name="" id=""> Mujer
+		<!--Sirve para crear unos cuadros que permite al usuario elejir varias opciones-->
+		
+		<br/><br/>
+
+		<input type="radio" name="" id=""> Hombre
+		<input type="radio" name="" id=""> Mujer
+		<!--Sirve para crear unos cuadros que permite al usuario elejir una sola de las opciones-->
+		<br/><br/>
+
+		<input type="button" value="Enviar">
+		<!-- Crea un boton simple que no envia nada ni recibe nada es solo un boton-->
+		<br/><br/>
+
+		<input type="submit" value="Enviar Datos">
+		<!--Crea un boton que si envia informacion pero depende de los atributos agregados en el form-->
+		<br/><br/>
+
+		<select>
+			<option value="Merida">Merida</option>
+			<option value="Trujillo">Trujillo</option>
+		</select>
+		<!--Crea un lista plegable en la que se muestran todas las options que hemos puesto-->
+		
+
+		<!--Algunas etiquetas nuevas con input de html5-->
+		<input type="color" name="">
+		<input type="range" name="">
+		</form>
+		
+
+	</body>
+</html>

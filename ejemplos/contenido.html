@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title> Sexta pagina </title>
+		<meta name="description" content="contenido de la pagina:El concepto de paisaje (extension de terreno que se ve desde un lugar o sitio)." /> <!--metadatos que ayudan a google a posicionar nuestra pagina dependiendo de la informacion que ofrezca, siempre se coloca en el head-->
+		<meta name="keywords" content="paisajes, etc" /><!-- metadato que usa palabras clave para posicionarse en el buscador aunque ya no es usado por google-->
+		<!--<link rel="stylesheet" type="text/css" href="aqui pueden ir direcciones web o hojas de estilo como las imagenesejemplos:(estilos.css) " /> esto es para llamar a una hoja de estilo para nuestra pagina--> 
+	<!--<script type="text/javascript"></script> etiqueta que sirve para incluir codigo java script y puede colocarse en cualquier parte no necesariamente en el head puede ser en el body o donde sea aunque lo correcto es en el head y para importar codigo javascript se usa <script src="nombredelarchivo.js"></script>-->
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/html.jpg">
+ 	</head>
+
+	<body>
+
+	<!--<div><
+		separador de secciones normalmente aqui van imagenes o videos ya que no es informacion importante para el navegador
+	</div>-->
+
+	<header><!--Cabezera-->
+		<div>
+			<img src="imagenes/icono.png" width="70" height="70" alt="Logotipo de html">
+		</div>
+		<nav> 	<!--Permite decirle al navegador y al buscador que esto es un menu de navegacion-->
+			
+			<ul> <!--Los menus de navegacion deben crearse con listas por eso usamos el atributo <ul> y <li>-->
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Categoria</a></li>
+				<li><a href="#">Categoria2</a></li>
+			</ul>			
+		</nav>
+	</header>
+
+	<section class="wrapper"> <!--se usa la etiqueta seccion para encerrar nuestro contenido en uno solo con la class wrapper que es como un contenedor-->
+		<section class="main">
+			<article> <!--la informacion dentro de article sirve para agregar articulos, el contenido dentro de article es el que google le da importancia a la hora de buscar la pagina-->
+				<h2>Titulo de la pagina</h2>
+				<p>contenido de la pagina:El concepto de paisaje (extension de terreno que se ve desde un lugar o sitio)1 se utiliza de manera diferente por varios campos de estudio, aunque todos los usos del termino llevan implicita la existencia de un sujeto observador (el que visualiza) y de un objeto observado (el terreno), del que se destacan fundamentalmente sus cualidades visuales, espaciales y la hermosura de sus medios.</p>
+			</article>
+
+			<article> 
+				<h2>Titulo de la pagina</h2>
+				<p>contenido de la pagina:El concepto de paisaje (extension de terreno que se ve desde un lugar o sitio)1 se utiliza de manera diferente por varios campos de estudio, aunque todos los usos del termino llevan implicita la existencia de un sujeto observador (el que visualiza) y de un objeto observado (el terreno), del que se destacan fundamentalmente sus cualidades visuales, espaciales y la hermosura de sus medios.</p>
+			</article>
+		</section> <!-- la clase main va a identificar el contenido principal , los articulos-->
+		<aside>
+			<h3>Sidebar</h3>
+			<p>contenido del sidebar: El concepto de paisaje (extension de terreno que se ve desde un lugar o sitio) se utiliza de manera diferente por varios campos de estudio, aunque todos los usos del termino llevan implicita la existencia de un sujeto observador (el que visualiza) y de un objeto observado (el terreno), del que se destacan fundamentalmente sus cualidades visuales, espaciales y la hermosura de sus medios.</p>
+		</aside><!--aside se conoce como afuera donde podremos colocar mas contenido es como contenido que no es importante para el buscador pero es importante para el usuario algo asi como contenido secundario-->
+	</section>
+
+	<footer>
+		<p>Daniel Contreras - Merida 2018</p>
+	</footer>
+	
+	</body>
+</html>
