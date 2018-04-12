@@ -1,0 +1,48 @@
+body {
+  background: #FFFFE0;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.body {
+	height: 500px;
+}
+
+.navbar {
+  background: #FFFFFF;
+  padding: 10px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: red;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: red;
+}
